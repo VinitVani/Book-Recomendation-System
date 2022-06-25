@@ -79,7 +79,7 @@ a = st.selectbox('Select a book',options=table.index)
 
 if st.button("Recommend Me Book Based On My Selected Book"):
     names,Author,link = recommend(a)
-    st.text(names[0])
+    
     col11, col21, col31  = st.columns(3)
     
     with col11:
